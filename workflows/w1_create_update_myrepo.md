@@ -119,7 +119,11 @@ This step copies changes from a remote repository to a local repository.
 :key:  Do this **before starting work in a repository so you have the most up-to-date-changes.**   
 **Note:**  this is a good step to practice even though the first time you clone a repo it will already be up to date.   
 
-<kbd> git pull </kbd> 
+- <kbd> git pull </kbd> 
+- create `name.py` file on GitHub 
+- <kbd> git pull </kbd> to sync repo
+
+
 
 ## Step 9:  list branches
 <kbd> git branch </kbd>  
