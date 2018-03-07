@@ -1,5 +1,11 @@
 # Workflow 1:  Create and Update My Repo
 
+## What Git is About
+- version control
+- GitHub is on browser
+- Git is at the terminal
+
+---
 ## Step 0:  setup (local computer)
 ### Configure user name and email (lets Git know who you are)
 - `git config --global user.name "First Last"`  
