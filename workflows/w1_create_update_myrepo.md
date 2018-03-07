@@ -104,6 +104,15 @@ git remote -v
 origin	https://github.com/reshamas/gitclass.git (fetch)
 origin	https://github.com/reshamas/gitclass.git (push)
 ```
+**Remotes** are copies of a repo on another computer **(or on a service like Github)**  
+
+**Example:**  
+* `upstream` [organization repo]
+* `origin`   [your forked repo]  (will see this later in a fork-repo example)
+
+**Note:**  
+* notice you have push and pull access  
+
 
 ## Step 8:  update a repo
 This step copies changes from a remote repository to a local repository.  
@@ -119,6 +128,8 @@ This step copies changes from a remote repository to a local repository.
 git branch
 * master
 ```
+**Branching** means you diverge from the main line of development and continue to do work without changing the main line, like "scratch paper" but for online coding.  
+More details can be found here:  [branches](../git_6_branches.md)
  
 ## Step 10:  create a working branch
 <kbd> git branch <branch_name> </kbd>
@@ -182,6 +193,10 @@ nothing added to commit but untracked files present (use "git add" to track)
 git add mercury.md 
 ```
 
+**Note:**  to `add` a file is to begin tracking it:  
+- adds a change in the working directory to the staging area
+- tells Git that you want to include updates to a particular file in the next commit
+
 ## Step 16:  get status of repo
 <kbd> git status </kbd>  
 >my example
@@ -208,6 +223,8 @@ git commit -m 'adding first planet'
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 mercury.md
 ```
+**Note:**  to `commit` a file is to "log the change":  
+- changes are recorded in Git (interaction is with local repo)
 
 ## Step 18:  get status of repo
 <kbd> git status </kbd>  
@@ -238,7 +255,9 @@ Total 3 (delta 0), reused 0 (delta 0)
 To https://github.com/reshamas/gitclass.git
  * [new branch]      reshama_wip -> reshama_wip
  ```
- 
+**Note:**  to `push` a "commit" is to "finalize the change":  
+- changes are pushed from Git (local, terminal) to GitHub (browser account, remote)
+
 ## Step 20:  look at files on working branch on GitHub
 <kbd> git status </kbd>  
 <kbd> git push origin <branch_wip> </kbd> 
